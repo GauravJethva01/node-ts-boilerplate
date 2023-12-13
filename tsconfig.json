@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "NodeNext",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "baseUrl": "./",
+    "paths": {
+      "src/*": ["src/*"],
+      "app/*": ["app/*"]
+    },
+    "plugins": [
+      // Transform paths in output .js files
+      { "transform": "typescript-transform-paths" }
+    ]
+  },
+  "ts-node": {
+    "transpileOnly": true,
+    "esm": true,
+    "require": ["typescript-transform-paths/register"]
+  }
+}
