@@ -1,4 +1,4 @@
-# node-ts-boilerplate
+# Node Boilerplate Using Typescript
 
 Express Server built using typescript
 
@@ -6,28 +6,24 @@ Express Server built using typescript
 
 ```
 yarn add express dotenv cors
-
 ```
 
 #### Add Typescript dependencies
 
 ```
 yarn add -D typescript @types/express @types/node ts-node
-
 ```
 
 #### For use absolute imports
 
 ```
 yarn add -D typescript-transform-paths
-
 ```
 
 ##### Other useful libraries
 
 ```
 yarn add helmet i18n jsonwebtoken morgan multer nodemailer passport trim-request
-
 ```
 
 #### Initialize with typescript
