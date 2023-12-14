@@ -4,11 +4,12 @@
     "module": "NodeNext",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
+    "noImplicitAny": false,
     "strict": true,
     "baseUrl": "./",
     "paths": {
-      "src/*": ["src/*"],
-      "app/*": ["app/*"]
+      "src/*": ["src/*", "src"],
+      "app/*": ["app/*", "app"]
     },
     "plugins": [
       // Transform paths in output .js files
